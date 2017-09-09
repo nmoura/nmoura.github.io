@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Cleaning a Java keystore; or: preparing it to authenticate Brazilian persons"
-date:   2017-09-08 10:32:00 -0300
-tags:   java keystore certificate authority CA icp-brasil iti RFB e-CPF e-CNPJ eCPF eCNPJ Safenet token A3
+layout:   post
+comments: true
+title:    "Cleaning a Java keystore; or: preparing it to authenticate Brazilian persons"
+date:     2017-09-08 10:32:00 -0300
+tags:     java keystore certificate authority CA icp-brasil iti RFB e-CPF e-CNPJ eCPF eCNPJ Safenet token A3
 ---
 
 Suppose that you need to authenticate clients by trusting in a certificate authorities chain. Maybe you can download every single certificate from each authority, but the chances to do a mistake are very big. Depending on the case, you don't have an unique place with all certificates that you need. From time to time, new authorities are created, certificates expire, etc.
@@ -1223,3 +1224,28 @@ keystore_issuer="AC Secretaria da Receita Federal do Brasil*"
     </sub></td>
   </tr>
 </table>
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://nilton-mouras-personal-page.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<script id="dsq-count-scr" src="//nilton-mouras-personal-page.disqus.com/count.js" async></script>
+{% endif %}
