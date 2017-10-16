@@ -1,6 +1,7 @@
 ---
 layout:   post
 comments: true
+seo:      true
 title:    "Cleaning a Java keystore; or: preparing it to authenticate Brazilian persons"
 date:     2017-09-08 10:32:00 -0300
 tags:     java keystore certificate authority CA icp-brasil iti RFB e-CPF e-CNPJ eCPF eCNPJ Safenet token A3
@@ -1248,4 +1249,8 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 <script id="dsq-count-scr" src="//nilton-mouras-personal-page.disqus.com/count.js" async></script>
+{% endif %}
+
+{% if page.seo %}
+    {% seo %}
 {% endif %}

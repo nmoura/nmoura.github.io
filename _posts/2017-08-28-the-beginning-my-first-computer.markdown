@@ -1,12 +1,13 @@
 ---
 layout:   post
 comments: true
+seo:      true
 title:    "The beginning: my first computer"
 date:     2017-08-28 18:32:00 -0300
 tags:     computers history
 ---
 
-![Main menu]({{ site.url }}/assets/2017-08-28-the-beginning/286_01.jpg)
+![286 IBM PC]({{ site.url }}/assets/2017-08-28-the-beginning/286_01.jpg)
 
 In 1994, when I was almost 11 years old, my father won a 286 IBM PC from his job. He took the computer home and I started my first steps with it. I was amazed. I knew nothing about computers, nor about English language. In the beginning, I messed up the DOS operating system because, thinking that I was doing a good cleaning, I deleted files that did not execute, like `msdos.sys`, for example - poor boy and father. I remember my father calling to his friend, to learn how to recover the DOS because of my pranks.
 
@@ -18,19 +19,19 @@ Many years after, my father turned on the same computer and I took some pictures
 <sub>_Figure 2: Main Menu_</sub>
 
 
-![Main menu]({{ site.url }}/assets/2017-08-28-the-beginning/286_03.jpg)
+![Programs Menu]({{ site.url }}/assets/2017-08-28-the-beginning/286_03.jpg)
 <sub>_Figure 3: Programs Menu_</sub>
 
 
-![Main menu]({{ site.url }}/assets/2017-08-28-the-beginning/286_04.jpg)
+![Games Menu]({{ site.url }}/assets/2017-08-28-the-beginning/286_04.jpg)
 <sub>_Figure 4: Games Menu_</sub>
 
 
-![Main menu]({{ site.url }}/assets/2017-08-28-the-beginning/286_05.jpg)
+![Excerpt of Programs Menu source code]({{ site.url }}/assets/2017-08-28-the-beginning/286_05.jpg)
 <sub>_Figure 5: Excerpt of Programs Menu source code_</sub>
 
 
-![Main menu]({{ site.url }}/assets/2017-08-28-the-beginning/286_06.jpg)
+![Excerpt of Programs Menu source code]({{ site.url }}/assets/2017-08-28-the-beginning/286_06.jpg)
 <sub>_Figure 6: Excerpt of Programs Menu source code_</sub>
 
 {% if page.comments %}
@@ -56,4 +57,8 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//nilton-mouras-personal-page.disqus.com/count.js" async></script>
 
+{% endif %}
+
+{% if page.seo %}
+    {% seo %}
 {% endif %}
