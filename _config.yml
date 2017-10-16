@@ -23,6 +23,8 @@ url: "https://nmoura.github.io" # the base hostname & protocol for your site, e.
 twitter_username: niltonsmoura
 github_username:  nmoura
 google_analytics: UA-106130500-1
+disqus:
+  shortname: nilton-mouras-personal-page
 
 # Build settings
 markdown: kramdown

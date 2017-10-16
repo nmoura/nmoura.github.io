@@ -33,32 +33,3 @@ Many years after, my father turned on the same computer and I took some pictures
 
 ![Excerpt of Programs Menu source code]({{ site.url }}/assets/2017-08-28-the-beginning/286_06.jpg)
 <sub>_Figure 6: Excerpt of Programs Menu source code_</sub>
-
-{% if page.comments %}
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = https://nmoura.github.io/2017/08/28/the-beginning-my-first-computer.html;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = /2017/08/28/the-beginning-my-first-computer.html; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://nilton-mouras-personal-page.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<script id="dsq-count-scr" src="//nilton-mouras-personal-page.disqus.com/count.js" async></script>
-
-{% endif %}
-
-{% if page.seo %}
-    {% seo %}
-{% endif %}
