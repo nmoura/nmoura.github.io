@@ -1,10 +1,19 @@
 ---
-layout:   post
-comments: true
-seo:      true
-title:    "Cleaning a Java keystore; or: preparing it to authenticate Brazilian persons"
-date:     2017-09-08 10:32:00 -0300
-tags:     java keystore certificate authority CA icp-brasil iti RFB e-CPF e-CNPJ eCPF eCNPJ Safenet token A3
+title:       "Cleaning a Java keystore; or, preparing it to authenticate Brazilian persons"
+layout:      post
+date:        2017-09-08 10:32:00 -0300
+image:       /assets/images/markdown.jpg
+headerImage: false
+tag:
+- icp-brasil
+- rfb
+- e-cpf
+- e-cnpj
+- keystore
+category:    blog
+author:      nmoura
+description: How to clean a Java keystore to have only one specific parent and its children
+seo:         true
 ---
 
 Suppose that you need to authenticate clients by trusting in a certificate authorities chain. Maybe you can download every single certificate from each authority, but the chances to do a mistake are very big. Depending on the case, you don't have an unique place with all certificates that you need. From time to time, new authorities are created, certificates expire, etc.

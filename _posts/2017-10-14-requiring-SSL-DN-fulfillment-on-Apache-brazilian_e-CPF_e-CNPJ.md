@@ -1,10 +1,19 @@
 ---
-layout:   post
-comments: true
-seo:      true
-title:    "Requiring SSL DN fulfillment on Apache - brazilian e-CPF/e-CNPJ"
-date:     2017-10-14 22:30:00 -0300
-tags:     certificate authority CA icp-brasil iti RFB e-CPF e-CNPJ eCPF eCNPJ Safenet token A3 RequireSSL DN clientauth receita
+title:       "Requiring SSL DN fulfillment on Apache - brazilian e-CPF and e-CNPJ"
+layout:      post
+date:        2017-10-14 22:30:00 -0300
+image:       /assets/images/markdown.jpg
+headerImage: false
+tag:
+- icp-brasil
+- rfb
+- e-cpf
+- e-cnpj
+- apache
+category:    blog
+author:      nmoura
+description: Detailed validation of a user certificate fields
+seo:         true
 ---
 
 ## Introduction
